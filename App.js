@@ -121,8 +121,8 @@ class App extends React.Component {
 
 
     return (
-        <div className="calculator">
-          <div  className="display">
+        <div className="main">
+          <div  className="calculator">
             <div id ="display">
               <h2>{this.state.sum}</h2></div>
             <div className="numbers-container">

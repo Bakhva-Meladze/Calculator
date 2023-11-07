@@ -37,7 +37,7 @@
   }
 }
 
-.display{
+.calculator{
   width: auto;
   margin-top: 10px;
   height:360px;
@@ -51,16 +51,14 @@
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-
-
 }
 
-.display:hover{
-  box-shadow: 5px 5px 10px 0px #888;
+.calculator:hover{
+  background-color: red;
 }
 #display {
-  position:relaive;
-  width: 90%;
+  position: relative;
+  max-width: 90%;
   background-color:black;
   color:white;
   top:80px;
