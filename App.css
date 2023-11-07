@@ -38,28 +38,25 @@
 }
 
 .display{
-  left:40%;
   width: auto;
   margin-top: 10px;
   height:360px;
   position:absolute;
-  background-color: purple;
+  background-color: paleturquoise;
   border-color:  #9c85a6;
   border-radius:10px;
   border-width: 20px;
   border-style: solid;
   grid-template-columns: repeat(1,   minmax(1%, 1fr));
   transform: translate(-50%, -50%);
-  top: 210px;
+  top: 50%;
   left: 50%;
 
 
 }
 
 .display:hover{
-  border-color:#9c85a6;
-  border-radius:20px;
-  border-width: 10px;
+  box-shadow: 5px 5px 10px 0px #888;
 }
 #display {
   position:relaive;
